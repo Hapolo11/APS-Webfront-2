@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Formulário de Orçamento</title>
+</head>
+<body>
+  <div class="container">
+<h2>Formulário de Orçamento</h2>
+
+<form id="orcamentoForm">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome"><br>
+  <span id="nomeErro" class="error"></span><br> <!-- Mensagem de erro embaixo do campo -->
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <span id="emailErro" class="error"></span><br> <!-- Mensagem de erro embaixo do campo -->
+  <label for="mensagem">Mensagem:</label><br>
+  <textarea id="mensagem" name="mensagem"></textarea><br>
+  <span id="mensagemErro" class="error"></span><br> <!-- Mensagem de erro embaixo do campo -->
+  <button type="button" onclick="validarForm()">Enviar</button>
+</form>
+<div id="mensagemErro" class="error"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

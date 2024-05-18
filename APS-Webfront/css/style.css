@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,1000;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,1000;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 2400px;
+    margin: 0%;
+}
+
+.navbar{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    z-index: 1000; /* coloquei esse z-index só pq a navbar estava ficando atrás do flipcard*/
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+
+}
+.logo{
+    flex:20%;
+   
+}
+.menu{
+    flex:70%;
+    text-align:right;
+    padding:20px;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    padding:20px 16px; 
+}
+
+.menu a:hover{
+    transition-delay: 0.1s;
+    border-bottom: solid white 5px;
+}
+#btn-1{
+    background: #000000;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+#btn-1:hover{
+    background: white;
+    color: #000000;
+}
+.header {
+    color: white;
+    background-image: url("../images/fabrica.png");
+    font-family: "Montserrat Classic", sans-serif;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header h1{
+    font-size: 60px;
+    position: absolute;
+    bottom: 350px;
+    left: 60px;
+
+   
+  }
+  .header h2{
+    font-size: 50px;
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+.main1{
+  background-color: #000000;
+}
+/* card normal*/
+.card{
+    font-family: "Poppins", sans-serif;
+    margin: 50px;
+    background-image: linear-gradient( 90deg ,#000000,#737373);
+    color: white;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+.card button{
+  margin-left: 30px;
+  background-image: linear-gradient( 90deg ,#000000,#737373);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.card h1{
+    margin-top: 100px;
+    
+}
+
+.card>img{
+ margin-top: 15px;
+ margin-left: 15px;
+    width: 90%;
+}
+a#btn-2{
+  margin-top: 80px;
+    margin-left: 30px;
+    width: 275px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 40px;
+
+}
+a#btn-2:hover{
+  color: white;
+  background: #000000;
+}
+
+.main2{
+    background-image: url(../images/camera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+
+}
+.area-texto{
+  height: 200px;
+  width: 1000px;
+  
+
+}
+.area-texto > h2{
+  color: white;
+  font-size: 32px;
+  text-align: left;
+  font-family: "Montserrat Classic", sans-serif;
+  
+}
+.area-flip-cards{
+ 
+  height: 400px;
+  display: flex;
+  justify-content: center;
+
+}
+/* card com efeito virandos*/
+.flip-card {
+    margin: 50px;
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px; 
+  }
+  
+  /* posicionar o card de frente e de costas */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* da uma girada horizontal quando colocar o mouse em cima do card */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /*posição das duas partes */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 5%;
+    font-family: "Montserrat Classic", sans-serif;
+  }
+  
+  /* estilo da frente */
+  .flip-card-front {
+    background-image: linear-gradient( 90deg ,#000000,#737373);
+    color: white;
+  }
+  .flip-card-front img{
+    margin-top: 20px;
+    width:250px;
+    height:200px;
+    border-radius: 15px;
+  }
+  
+  /* estilo para o fundo*/
+  .flip-card-back {
+    background-image: linear-gradient( 90deg ,#000000,#737373);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+ .contato{
+ display: flex;
+ height: 400px;
+ flex: 50%;
+ text-align: center;
+ flex-direction: column;
+ justify-content: center;
+  
+
+ }
+ .contato h2{
+  color: #000000;
+  font-family: "Montserrat Classic", sans-serif;
+  text-align: center;
+ }
+ .contato h1{
+  font-size: 68px;
+ }
+ .rede{
+  height: 35px;
+ }
+ footer{
+  display: flex;
+  flex-direction: row;
+ } 
+ 
+
+input[type=text], select, textarea {
+  background-color: #e2e2e2;
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=email], select, textarea {
+  background-color: #e2e2e2;
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+button {
+  background-color: #848484;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #535353;
+}
+
+
+.container {
+  flex: 50%;
+  border-radius: 5px;
+
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+ 
+}
+.main3{
+  background: #000000;
+  padding: 20px;
+
+}
+.main3 h1{
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  margin: 8px -16px;
+
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+.content:hover{
+  background: #ddd;
+}
+.content img{
+  height:250px ;
+  width: 100%;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 36px;
+  border-radius:20px ;
+  background: #fff;
+  color: #000000  ;
+ border: 2px solid  white;
+  cursor: pointer;
+  margin-left: 20px;
+}
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+ 
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #000000;
+  border: white solid 1px;
+   color: white;
+   padding: 16px 42px;
+}
+.error {
+    color: red;
+    font-weight: bold;
+  }
+
+

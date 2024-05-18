@@ -1,0 +1,28 @@
+.pista {
+    background-image: url("./ASSETS/IMG/track.gif");
+    width: 800px;
+    height: 400px;
+    position: relative;
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
+.car_1 {
+    background-image: url("./ASSETS/IMG/red_jaguar.png");
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    top: 200px;
+    left: 450px;
+}
+.car_2 {
+    background-image: url("./ASSETS/IMG/white_ats.png");
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    top: 200px;
+    left: 270px;
+}

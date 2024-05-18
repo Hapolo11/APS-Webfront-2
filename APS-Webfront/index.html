@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+           <img src="images/logo.png" alt="logo da página" height="100px">
+        </div>
+        <div class="menu">
+            <a href="#principal">Principal</a>
+            <a href="#quem_somos">Quem somos</a>
+            <a href="#portifolio">Portfólios</a>
+            <a id="btn-1" href="#contato">Contato</a>
+        </div>
+</nav>
+
+<div class="header"> 
+    <h1>O FUTURO DA <br>AUTOMAÇÃO SE <br>ENCONTRA AQUI</h1>
+    <h2>Automatizando o Futuro,<br> Simplificando o Presente.</h2> 
+</div>
+<div class="main main1" id="principal">
+  
+    <div class="card1 card">
+        <h1>Desenvolvimento de Software:</h1>
+        <p>Desenvolvimento personalizado de software para atender às necessidades específicas de automação da sua empresa.</p>
+        <ul>
+            <li>Soluções personalizadas</li>
+            <li>Flexibilidade e Escalabilidade</li>
+            <li>Eficiência Operacional</li>
+        </ul>
+        <a href="sites/!orçamento/index.html" id="btn-2">Solicitar Orçamento <button><img src="images/seta-direita.png" alt="setinha"></button></a>
+    </div>
+    <div class="card2 card">
+        <h1>Automação Residencial:</h1>
+        <p>Desenvolvimento personalizado de software para atender às necessidades específicas de automação da sua empresa.</p>
+        <ul>
+            <li>Eficiência Operacional Aprimorada</li>
+            <li>Redução de erros e omissões</li>
+            <li>Tomada de decisão baseada em dados</li>
+        </ul>
+        <a href="sites/!orçamento/index.html" id="btn-2">Solicitar Orçamento <button><img src="images/seta-direita.png" alt="setinha"></button></a>
+    </div>
+    <div class="card3 card">
+        <h1>Internet das coisas (IoT):</h1>
+       <p>Desenvolvimento e implementação de soluções IoT para conectar dispositivos e coletar dados em tempo real.</p>
+       <ul>
+        <li>Monitoramento em tempo real</li>
+        <li>Controle Remoto</li>
+        <li>Otimização de Recursos</li>
+    </ul>
+    <a href="sites/!orçamento/index.html" id="btn-2">Solicitar Orçamento <button><img src="images/seta-direita.png" alt="setinha"></button></a>
+    </div>
+
+</div>
+<!-- seção com os cards giratórios-->
+
+<article class="main main2" id="quem_somos">
+  <section class="area-texto">
+   <h2>Na TechAutomate Solutions, estamos na vanguarda da revolução digital, capacitando empresas de todos os setores a alcançarem seu máximo potencial através da automação inteligente e da inovação tecnológica.</h2> 
+
+  </section>
+
+<section class="area-flip-cards">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/hapolo.jpg" alt="Avatar">
+            <h1>Hapolo Luiz</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Hapolo</h1>
+            <p>Tec. Automação Industrial & Graduando em Ciência da Computação </p>
+            <p>Busco oportunidades desafiadoras onde possa aplicar minha expertise em automação e expandir meus conhecimentos em tecnologia, visando contribuir para projetos inovadores e alcançar excelência na integração de sistemas industriais e desenvolvimento de soluções tecnológicas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/david.jpeg" alt="Avatar" >
+            <h1>David</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>David</h1>
+            <p>Graduando em Ciência da Computação</p>
+            <p>Como estudante de ciências da computação, mergulho diariamente em um oceano de possibilidades tecnológicas. Almejo chegar a lugares onde a inovação é a norma e os limites são apenas desafios a serem superados. Estou pronto para os desafios que estão por vir e animado para explorar todas as possibilidades que a ciência da computação tem a oferecer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="images/caio.jfif" alt="Avatar"> 
+        <h1>Caio Leal</h1>
+          </div>
+          <div class="flip-card-back">
+            <h1>Caio</h1>
+            <p>Graduando em Ciência da Computação</p>
+            <p>Busco constantemente oportunidades para ampliar meus conhecimentos na área da tecnologia. Tenho explorado uma variedade de áreas, desde algoritmos e estruturas de dados até inteligência artificial e segurança cibernética, estou sempre buscando maneiras de expandir minhas habilidades e adquirir conhecimento.</p>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+</article>
+<section class="main3" id="portifolio">
+<h1>PORTFÓLIOS DA EQUIPE</h1>
+<!-- Filtros do portfolio -->
+
+<div id="myBtnContainer">
+<button class="btn active" onclick="filterSelection('all')"> Mostrar Portfólio</button>
+<button class="btn" onclick="filterSelection('hapolo')"> Hapolo</button>
+<button class="btn" onclick="filterSelection('caio')"> Caio</button>
+<button class="btn" onclick="filterSelection('david')"> David</button>
+</div>
+
+<!-- Coluna de Hapolo -->
+<div class="row">
+<div class="column hapolo">
+<div class="content">
+  <a href="sites/curriculo_hapolo/index.html"><img src="images/curriculo-img.png" alt="curriculo hapolo"></a>
+  <h4>Currículo Hapolo</h4>
+  <p>Currículo de Hapolo feito utilizando HTML e CSS.</p>
+</div>
+</div>
+<div class="column hapolo">
+<div class="content">
+  <a href="sites/GymFusion/index.html"><img src="images/gymfusion-img.png" alt="site de david"></a>
+  <h4>GymFusion</h4>
+  <p>Protótipo de site de academia feito utilizando HTML e CSS.</p>
+</div>
+</div>
+<div class="column hapolo">
+<div class="content">
+  <a href="sites/agência fake/index.html"><img src="images/Agencia.png" alt="teste de site de agencia feito por hapolo"></a>
+  <h4>Agência Fake</h4>
+  <p>Teste de criação de site de agência responsivo utlizando HTML e CSS.</p>
+</div>
+</div>
+<!-- Coluna de caio -->
+<div class="column caio">
+<div class="content">
+  <a href="sites/curriculo_caio/index.html"><img src="images/curriculo-caio.png" alt="curriculo de caio"></a>
+  <h4>Currículo Caio</h4>
+  <p>Currículo de Caio feito utilizando as linguagens de HTML e CSS.</p>
+</div>
+</div>
+<div class="column caio">
+<div class="content">
+  <a href="sites/!faculnubank/index.html"><img src="images/nubank-caio.png" alt="prototipo da nubank feito por caio"></a>
+  <h4>Protótipo Nubank</h4>
+  <p>Protótipo da tela inicial do Nubank utilizando HTML e CSS.</p>
+</div>
+</div>
+<div class="column caio">
+<div class="content">
+  <a href="sites/!skyline/index.html"><img src="images/skyline-img.png" alt="teste de hover feito por caio"></a>
+  <h4>Skyline</h4>
+  <p>Teste da utilização do comando "hover" utlizando HTML e CSS.</p>
+</div>
+</div>
+<!-- Coluna de david -->
+<div class="column david">
+<div class="content">
+  <a href="sites/david/david/portifolio.html"><img src="images/curriculo-david.png" alt="site de david"></a>
+  <h4>Currículo David</h4>
+  <p>Currículo de Caio feito utilizando as linguagens de HTML e CSS.</p>
+</div>
+</div>
+<div class="column david">
+<div class="content">
+  <a href="sites/ATIVIDADE Z_INDEX/ATIVIDADE Z_INDEX/ATIVIDADE Z_INDEX/index.html"><img src="images/zindex-david.png" alt="site de david"></a>
+  <h4>Z-Index</h4>
+  <p>Teste da utilização do comando "z-index" utlizando HTML e CSS.</p>
+</div>
+</div>
+<div class="column david">
+<div class="content">
+  <a href="sites/webfrontNU/Untitled-1.html"><img src="images/nubank-david.png" alt="site de david"></a>
+  <h4>Protótipo Nubank</h4>
+  <p>Protótipo da tela inicial do Nubank utilizando HTML e CSS.</p>
+</div>
+</div>
+<!-- END GRID -->
+</div>
+</section>
+
+
+<footer>
+  <section class="main4" id="contato">
+  <div class="area-texto contato">
+    <h1>CONTATE-NOS</h1>
+    <h2>nosso email de contato é: <br>
+      hcdtechautomate@gmail.com</h2>
+      <p>
+        <img src="images/twitter.png" class="rede" alt="logo do twitter">
+        <img src="images/instagram.png" class="rede"alt="logo do instagram">
+        <img src="images/facebook.png" class="rede"alt="logo do facebook">
+      </p>
+  
+  </div>
+</section>
+<div class="container">
+  <form id="orcamentoform">
+
+    <label for="fname">Nome:</label>
+    <input type="text" id="fname" name="nome" >
+    <span id="nomeErro" class="error"></span><br> <!-- Mensagem de erro embaixo do campo -->
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" >
+    <span id="emailErro" class="error"></span><br> <!-- Mensagem de erro embaixo do campo -->
+    <label for="email">Assunto:</label>
+    <input type="text" id="email" name="email" >
+    <span id="mensagemErro" class="error"></span><br> <!-- Mensagem de erro embaixo do campo -->
+    <label for="subject">Mensagem:</label>
+    <textarea id="subject" name="subject"  style="height:200px"></textarea>
+    <button type="button">Enviar</button>
+  </form>
+  
+  <script src="javascript.js"> </script>
+</div>
+</footer>
+</body>
+</html>

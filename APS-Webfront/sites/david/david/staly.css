@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", "sans-serif";
+}
+body {
+    overflow: hidden;
+    max-width: 1600px;
+}
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0, 0.5) rgba(0, 0, 0, 0.5));
+    background-image: url(7523401-placa-de-circuito-tecnologia-fundo-roxo-e-azul-bandeira-luz-conceito-sistema-eletronico-vetor.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+header { 
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cbc-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cbc-link a{
+    color: #fff;
+    font-size: 12px;
+}
+.cbc-link a:hover{
+    color: #8925ed;
+    transition: 0.3s all;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #8925ed;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+button{
+    color:#8925ed;
+    background: transparent;
+    border: solid 1px hsl(270, 85%, 54%);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 120px;
+}
+button:hover{
+    background-color: #8925ed;
+    color: #fff;
+    transition: 0.4s;
+}
+.teste{
+    padding: 150px 0 0 130px;
+
+}
+.texto h1 {
+    color: #fff;
+    margin-top: 10px;
+}
+.texto p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes a{
+    color: #8925ed;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.bt {
+    margin-top: 10px;
+}
+.perfil{
+    display: flex;
+    height: 250px;
+    justify-content: right;
+    width: 900px;
+  
+}
+.Forma h2{
+    color:#8925ed;
+
+}
+.Forma p{ 
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Experi h2{ 
+    color: #8925ed;
+} 
+.Experi p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300px;
+}
+.habi h2{
+    color: #8925ed;
+    
+}
+
+.habi p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300px;
+}
+.contato h2{
+    color: #8925ed;
+}
+ .contato p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600px;
+ }

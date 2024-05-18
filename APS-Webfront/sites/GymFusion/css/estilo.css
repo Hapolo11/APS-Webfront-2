@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background: #ECECEC;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    
+
+}
+
+.logo{
+    flex:20%;
+    margin-left:10%;
+    text-align: left;
+}
+
+.logo h1{
+    font-family:"Kdam Thmor Pro", sans-serif;;
+    color:#180F4A;
+    font-size:34px;
+}
+
+.menu{
+    flex:70%;
+    text-align:right;
+    padding:20px;
+}
+
+.menu a{
+    color:#000000;
+    text-decoration: none;
+    font-size:20px;
+    padding:20px 16px; 
+}
+
+.menu a:hover{
+    color:#5271FF;
+    transition-delay: 0.1s;
+}
+
+#botao{
+    background: #3BA1C5;
+    padding: 10px 25px;
+    color:black;
+    border-radius:5px;
+    margin-right:10%;
+    margin-left:5%;
+}
+
+#botao:hover{
+    border:none;
+    color: white;
+    background: #071e26;
+}
+
+
+.header{
+    height: 800px;
+    background-image: url("../img/header.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    
+    
+}
+.header h1{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.header h2{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.membro{
+    align-items: center;
+    text-decoration: none;
+    background: #3BA1C5;
+    padding: 10px 25px;
+    color:white;
+}
+.membro:hover{
+    background: #071e26;
+}
+.sobre{
+    background: white;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+.sobre h1{
+    margin-top: 50px;
+}
+.sobre1{
+    height: 800px;
+    width: 100%;
+    background: white;
+}
+.text{
+    text-align: center;
+    height: 200px;
+}
+.text h1{
+    font-size: 40;
+    font-family: "Lato", sans-serif;
+}
+.e{
+    height: 800px;
+}
+.cronogramas{
+    display: flex;
+    height: 800px;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/cronograma.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  
+    
+    
+    
+}
+.menu_c{
+    margin-top: 100px;
+    flex:20%;
+    text-align:center;
+    padding:20px;
+}
+
+.menu_c a{
+    color: white;   
+    text-decoration: none;
+    font-size:20px;
+    padding:20px 16px; 
+}
+
+.menu_c a:hover{
+    color:#5271FF;
+    transition-delay: 0.1s;
+}
+.tabela{
+    flex: 80%;
+    margin-bottom: 50px;
+}
+th,tr{
+    width: 100%;
+    border: solid white 1px;
+    padding: 40px;
+}
+/* ISSO AQUI É UM TESTE */
+  /* Column container */
+  .row {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .cima{
+    /*background: red;*/
+    align-items: center;
+    flex: 100%;
+    height: 100px;
+    text-align: center;
+  }
+  .side {
+    
+    flex: 50%; /* Set the width of the sidebar */
+    background-color: white; /* Grey background color */
+    padding: 20px; /* Some padding */
+    height: 600px;
+   }
+  /* Abas das turmas*/
+  .turmas{
+    flex: 20%;
+    
+    
+    }
+    .turmas img, h2{
+        display: inline-flex;
+    }  
+  /* Main column */
+  .main {
+   
+    flex: 50%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+    height: 600px;
+  }
+  .cima h1{
+    margin-top: 50px ;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+  }
+  /* ISSO AQUI É UM TESTE */
+  /*testando cards */
+  
+  
+  /* Cria um espaço dentro do container */
+  .container {
+    background: rgb(172, 163, 163);
+    padding: 2px 16px;
+    height: 160px;
+   
+
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    /* Adiciona sombras no card */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+    
+  .sobre-section {
+    
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+  
+  .container_1 {
+    padding: 0 16px;
+  }
+  
+  .container_1::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: #3BA1C5;
+  }
+  .sobre-section h1{
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+  }
+  .sobre-section p{
+    font-size: 28px;
+    color: #BDBDBD;
+  }
+  /* Footer */
+  .footer {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 600px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+
+
+
+
+   
+
+
+

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body{
+    background-color: #3045ae;
+}
+
+*{
+    margin: 0%;
+}
+
+.tudo{
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.foto img{
+    width: 220px;
+    height: 272px;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+.perfil{
+    margin-left: 10px;
+    margin: 10px;
+}
+
+.perfil h1{
+    color: #C8C8C8;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+}
+
+.perfil h2, h3, p{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+}
+
+.perfil ul{
+    list-style-type: disc;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+}
+
+.topico{
+    margin-top: 100px;
+}
+
+.perfil h2{
+    font-size: 30px;
+    margin: 10px;
+}
